@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balanço de Contas do Mês</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section>
+    <h2>Registro de contas do mês</h2>
+    <div class="box">
+      <div id="imgLogo">
+        <img src="contas2.jpg" alt="Controle de contas">
+      </div>
+      <div id="form">
+        <p><strong>Descrição da Conta</strong>: <input type="text" name="inDescricao" id="inDescricao"></p>
+        <p><strong>Valor a pagar</strong>: <input type="text" name="inValor" id="inValor"></p>
+        <p><button id="btRegistrar">Registrar Conta</button></p>
+      </div>
+    </div>
+    <div id="outResultado">
+      <pre id="outContas"></pre>
+      <pre id="outTotal"></pre>
+    </div>
+  </section>
+</body>
+
+</html>
+<script src="script.js"></script>
