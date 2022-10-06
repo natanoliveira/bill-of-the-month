@@ -6,6 +6,23 @@ section {
 
 }
 
+@media (max-width: 600px) {
+  section {
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  .box {
+    text-align: center;
+  }
+
+  .box img {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+}
+
 h1,
 h2 {
   border-bottom: 3px solid #ccc;

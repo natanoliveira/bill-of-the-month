@@ -13,7 +13,6 @@ function registrarConta() {
   var inDescricao = document.getElementById("inDescricao")
   var inValorConta = document.getElementById("inValor")
 
-
   var outContas = document.querySelector("pre#outContas")
   var outTotal = document.querySelector("pre#outTotal")
 
